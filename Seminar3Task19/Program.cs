@@ -93,7 +93,7 @@ result_text = result_text.Replace("\'", "");
 result_text = result_text.Replace("/", "");
 
 Console.WriteLine("Удалили пробелы, символы звездочки (*) и апострофа (') из строки '{0}' в '{1}'", text, result_text);
-// // Console.Write("Удалили пробелы, символы звездочки (*) и апострофа (') из строки\n   {0}\n в\n   '{1}'", text, result_text); // Другое оформление 
+// Console.Write("Удалили пробелы, символы звездочки (*) и апострофа (') из строки\n   {0}\n в\n   '{1}'", text, result_text); // Другое оформление 
 
 // Часть 1 - Поиск через СЛОВАРЬ четырехзначных цифровых палиндромов
 bool allDigits = result_text.All(char.IsDigit);

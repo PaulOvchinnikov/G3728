@@ -18,7 +18,7 @@ int ReadData(string msg)
 }
 
 // ограничимся кубами размером в int (2 147 483 647) => хватит 10 разрядов под значение
-int input_N = ReadData("Введите целое число до 1000 / Type on the keyboard a digit till 1000");
+int input_N = ReadData("Введите целое число до 1290 / Type on the keyboard a digit till 1290");
 
 static string SymbolLine(char s, int n)
 {
